@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfixe:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+.fixed-width{
+    width: 1200px;
+    margin: auto;
+}
+.header{
+
+background: #22c3a3;
+height: 80px;
+
+
+}
+.headerleft{
+    float: left;
+    width: 30%;
+}
+.headerleft h1{
+    line-height: 80px;
+}
+.headerright{
+    float: right;
+    width: 70%;
+}
+.headerright ul{
+    text-align: center;
+}
+.headerright ul li{
+    display: inline-block;
+    position: relative;
+}
+.headerright ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    display: block;
+    padding: 0 30px;
+    line-height:80px;
+    border-right: 2px solid red;
+    margin-left: -5px;
+    transition: .5s;
+
+}
+.headerright ul li:hover >a{
+    background: cyan;
+}
+
+.headerright ul li ul.dropdown{
+    position: absolute;
+    background: red;
+    width: 200px;
+    top: 100%;
+    visibility: hidden;
+    transform: scaleY(0);
+    transition: .5s;
+    opacity: 0;
+}
+.headerright ul li ul.dropdown li{
+    display: block;
+}
+.headerright ul li ul.dropdown li a{
+    display: block;
+}
+.headerright ul li:hover ul.dropdown{
+    visibility: visible;
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bannersection{
+    background: url(https://img.hotimg.com/header-bg01b2f72a4c19348448.jpeg) center center;;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px 0;
+}
+.banner a{
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 30px;
+    color: #fff;
+    display: inline-block;
+    border: 2px solid #fff;
+    transition: .5s;
+}
+.banner a:hover{
+    background: blue;
+}
+.banner h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #ffff;
+}
+
+.section{
+    margin-top: 60px;
+   
+}
+.service-section{
+    border-bottom: 2px solid #0dbf9b;
+    padding: 50px 0;
+}
+.section h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.section p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.section h1{
+    margin-top: 10px;
+    color: #000;
+}
+.section i{
+    font-size:40px;
+    color: #0dbf9b;
+}
+
+.service{
+    width: 23%;
+    float:left;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.container-section{
+    margin-top: 50px;
+}
+.container-section img{
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+}
+.container-section text{
+    float: right;
+
+        
+}
+.text{
+    text-align: left;
+    margin-top: 30px;
+position: relative;
+left:20px;
+
+}
+.finisesction{
+float: left;
+text-align: center;
+width: 33%;
+margin-top: 30px;
+}
+.finisesction i{
+    color:green;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.finissection{
+    margin-top: 40px;
+}
+.footer{
+    background: #0dbf9b;
+    padding: 20px;
+    margin-top: 30px;
+
+}
+.footer a{
+    margin-left: 20px;
+    color: #fff;
+    font-size: 50px;
+}
